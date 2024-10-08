@@ -1,0 +1,480 @@
+{
+    "scenes": [
+      {
+        "id": 0, 
+        "text": "In den Bergen um Durmstrang, verborgen in Dunkelheit und Nebel, ranken sich Gerüchte über die mächtigsten Relikte, die je existiert haben: der Schattenstein, der Seelenspiegel und der Zeitweber. Diese Artefakte könnten den Verlauf der magischen Welt verändern. Eine Prophezeiung warnt jedoch, dass ihre Macht nur Unheil bringt, wenn sie in die falschen Hände gelangen.<br><br> Du bist Lukas Roskow, ein Schüler an der magischen Schule von Durmstrang, der eines Nachts einen beunruhigenden Traum hat. Darin erscheinen dir die Relikte, ein Labyrinth und eine uralte Stimme, die dich warnt: <i>'Die Zeit läuft aus, die Dunkelheit kommt...'</i>",
+        "options": [
+          {
+            "text": "Es beginnt...",
+            "nextScene": 1
+          }
+        ],
+        "backgroundImg": "/images/intro-background.png"
+      },
+      {
+        "id": 1,
+        "text": "Es ist eine kalte, dunkle Nacht in den Bergen um Durmstrang. Du erwachst aus einem Traum, in dem dir die drei Relikte erschienen sind. Eine uralte, tiefe Stimme hat dir zugeflüstert, dass die Zeit knapp wird. Unruhig setzt du dich auf und spürst, dass deine Reise beginnt.",
+        "options": [
+          {
+            "text": "Wecke Levi und erzähle ihm von dem Traum.",
+            "nextScene": 2
+          },
+          {
+            "text": "Begib dich in die Bibliothek, um mehr über die Relikte zu erfahren.",
+            "nextScene": 3
+          },
+          {
+            "text": "Geh zum Hausgeist von Durmstrang, der angeblich viele Geheimnisse über die Relikte kennt.",
+            "nextScene": 4
+          }
+        ],
+        "backgroundImg": "/images/scene1-background.png"
+      },
+      { 
+        "id": 2,
+        "text": "Levi, dein treuer Freund und ein talentierter Runenexperte, hört dir aufmerksam zu. 'Das klingt gefährlich, Lukas', sagt er besorgt. 'Aber ich habe Gerüchte über diese Relikte gehört. Es gibt eine alte Legende, die besagt, dass sie tief in den Katakomben von Durmstrang verborgen sind. Wir müssen die verbotenen Bereiche der Schule durchsuchen.'",
+        "options": [
+          {
+            "text": "Stimme Levi zu und macht euch auf den Weg zu den Katakomben.",
+            "nextScene": 5
+          },
+          {
+            "text": "Lehne ab und versuche, allein mehr herauszufinden, um Levi zu schützen.",
+            "nextScene": 6
+          },
+          {
+            "text": "Gehe zu Professor Korvin, dem Experten für dunkle Magie.",
+            "nextScene": 7
+          }
+        ],
+        "backgroundImg": "/images/scene2-background.png"
+      },
+      { 
+        "id": 3,
+        "text": "In der Bibliothek findest du ein altes Buch über die Heiligen Relikte. Es beschreibt den Schattenstein, den Seelenspiegel und den Zeitweber und deutet an, dass sie an geheimen Orten in Durmstrang versteckt sind.",
+        "options": [
+          {
+            "text": "Geh zurück und erzähle Levi von dem Buch.",
+            "nextScene": 2
+          },
+          {
+            "text": "Untersuche das Buch genauer, um mehr Hinweise zu finden.",
+            "nextScene": 8
+          }
+        ],
+        "backgroundImg": "/images/scene3-background.png"
+      },
+      {
+        "id": 4,
+        "text": "Der Hausgeist von Durmstrang, ein alter Zauberer, der an die Schule gebunden ist, murmelt geheimnisvoll, dass die Relikte die Macht haben, alles zu verändern – aber nur, wenn der richtige Zauberer sie benutzt.",
+        "options": [
+          {
+            "text": "Frage den Geist nach weiteren Details über die Relikte.",
+            "nextScene": 9
+          },
+          {
+            "text": "Verabschiede dich und gehe zurück, um Levi von der Begegnung zu berichten.",
+            "nextScene": 2
+          }
+        ],
+        "backgroundImg": "/images/scene4-background.png"
+      },
+      {
+        
+        "id": 5,
+        "text": "Die Katakomben unter Durmstrang sind ein uraltes Labyrinth, das seit Jahrhunderten von niemandem betreten wurde. Die Luft ist kalt und modrig, und magische Schutzbarrieren flimmern in der Dunkelheit. Du und Levi steigen die steinernen Stufen hinunter und erreichen eine massive, mit Runen beschriftete Tür.",
+        "options": [
+          {
+            "text": "Verwende den Schutzzauber, den du gelernt hast, um die Runen zu brechen.",
+            "nextScene": 9
+          },
+          {
+            "text": "Lass Levi die Runen entschlüsseln und öffne die Tür.",
+            "nextScene": 9
+          },
+          {
+            "text": "Untersuche die Katakomben weiter, um einen anderen Weg zu finden.",
+            "nextScene": 10
+          }
+        ],
+        "backgroundImg": "/images/scene5-background.png"
+      },
+      {
+        
+        "id": 6,
+        "text": "Du versuchst, allein weiterzumachen, um Levi zu schützen. Doch die Last der Aufgabe erdrückt dich zunehmend. Ohne Levi an deiner Seite fühlst du dich verloren.",
+        "options": [
+          {
+            "text": "Kehr zu Levi zurück und bitte ihn um Hilfe.",
+            "nextScene": 2
+          }
+        ], 
+        "backgroundImg": "/images/scene2-background.png"
+      },
+      {
+        
+        "id": 7,
+        "text": "Professor Korvin ist besorgt über deine Suche nach den Relikten. Er warnt dich, dass die Macht der Relikte verlockend, aber gefährlich ist.",
+        "options": [
+          {
+            "text": "Bitte ihn um Rat bei der Suche nach den Relikten.",
+            "nextScene": 10
+          },
+          {
+            "text": "Ignoriere seine Warnung und setze deine Suche fort.",
+            "nextScene": 5
+          },
+          {
+            "text": "Misstraue Korvin und gehe wieder.",
+            "nextScene": 5
+          }
+        ],
+        "backgroundImg": "/images/scene7-background.png"
+      },
+      {
+        
+        "id": 8,
+        "text": "Du findest einen weiteren Hinweis im Buch, der auf eine geheime Kammer tief unter Durmstrang hinweist.",
+        "options": [
+          {
+            "text": "Mach dich sofort auf den Weg zu der Kammer.",
+            "nextScene": 5
+          },
+          {
+            "text": "Erzähle Levi von dem Hinweis und plant gemeinsam.",
+            "nextScene": 2
+          }
+        ],
+        "backgroundImg": "/images/scene3-background.png"
+      },
+      {
+        
+        "id": 9,
+        "text": "Levi studiert die Runen genau. 'Diese Inschrift sagt: Der Schatten schützt das Relikt. Wir müssen uns in Schatten hüllen.' Levi murmelt einen Verschleierungszauber. Langsam beginnt die Tür zu knarren, als sie sich öffnet. Hinter der Tür offenbart sich eine Kammer, die von unheimlichem blauen Licht erfüllt ist. In der Mitte der Kammer liegt ein blau leuchtender Stein. Der Schattenstein, eines der Heiligen Relikte!",
+        "options": [
+          {
+            "text": "Berühre den Schattenstein und nimm seine Macht an.",
+            "nextScene": 11
+          },
+          {
+            "text": "Untersuche die Umgebung auf Fallen oder Wächter.",
+            "nextScene": 11
+          }
+        ],
+        "backgroundImg": "/images/schattenstein.png"
+      },
+      {
+        
+        "id": 10,
+        "text": "Du entscheidest, die Katakomben weiter zu erforschen. In der Dunkelheit entdeckst du eine alte Rune, die eine noch tiefere Passage öffnet.",
+        "options": [
+          {
+            "text": "Folge der Passage.",
+            "nextScene": 9
+          }
+        ],
+        "backgroundImg": "/images/szene2.4.png"
+      },
+      {
+        
+        "id": 11,
+        "text": "Als du den Stein berührst, durchströmt dich eine kalte, fremde Macht. Du fühlst, wie deine Gedanken trüber werden und die Dunkelheit um dich herum dichter wird. Schatten beginnen, sich nach deinem Willen zu formen, doch mit dieser Macht kommt auch ein schwerer Preis. 'Du bist nun ein Diener der Dunkelheit' flüstert die Stimme. Plötzlich spürst du, wie du nicht mehr allein in deinem Kopf bist. Der Stein hat begonnen, dich zu beeinflussen.",
+        "options": [
+          {
+            "text": "Akzeptiere die Macht des Schattensteins.",
+            "nextScene": 12
+          },
+          {
+            "text": "Versuche, die Verbindung zu brechen, bevor es zu spät ist.",
+            "nextScene": 13
+          },
+          {
+            "text": "Fliehe mit dem Schattenstein und hoffe, dass du einen Weg findest, seine Macht zu kontrollieren.",
+            "nextScene": 32
+          }
+        ],
+        "backgroundImg": "/images/scene3.1.png"
+      },
+      {
+        
+        "id": 12,
+        "text": "Die Dunkelheit des Schattensteins ergreift Besitz von dir. Du verlierst dich in der Dunkelheit",
+        "options": [],
+        "backgroundImg": "/images/scene11.1.png"
+      },
+      {
+        
+        "id": 13,
+        "text": "Nach deinem Abenteuer in den Katakomben entdeckst du Hinweise auf das zweite Relikt, den Seelenspiegel, der tief im verbotenen Wald verborgen liegt. Dieser Spiegel soll die tiefsten Geheimnisse und Ängste seiner Besitzer offenbaren. Du und Levi machen euch auf den Weg durch den dunklen Wald, begleitet von unheilvollem Rauschen der Bäume und seltsamen Geräuschen, die euch folgen. Plötzlich stehst du vor einer alten, verwitterten Hütte. Im Inneren spürst du eine magische Präsenz. Der Seelenspiegel wartet...",
+        "options": [
+          {
+            "text": "Betritt die Hütte und stelle dich dem Spiegel.",
+            "nextScene": 14
+          }
+        ],
+        "backgroundImg": "/images/scene4.png"
+      },
+      {
+        
+        "id": 14,
+        "text": "Im Inneren der Hütte ist es still und düster. Der Seelenspiegel! Als du dich ihm näherst, beginnt der Spiegel zu leuchten. Plötzlich zeigt er ein Bild, es ist deine eigene Reflexion, doch sie spricht zu dir. 'Bist du bereit, dich deinem wahren Ich zu stellen?'",
+        "options": [
+          {
+            "text": "Blicke in den Spiegel und stelle dich deiner Dunkelheit.",
+            "nextScene": 17
+          },
+          {
+            "text": "Zerschlage den Spiegel, bevor er dir zu viel zeigt.",
+            "nextScene": 15
+          },
+          {
+            "text": "Versuche, die Magie des Spiegels zu bannen, ohne hineinzuschauen.",
+            "nextScene": 16
+          }
+        ],
+        "backgroundImg": "/images/seelenspiegel.png"
+      },
+      {
+          
+          "id": 15,
+          "text": "Du zerschlägst den Spiegel. Die Scherben werden zu einem hellen Licht, im nächsten Moment setzt sich der Spiegel wieder zusammen.",
+          "options": [
+            {
+              "text": "Du hast keine andere Wahl als dich dem Spiegel zu stellen.",
+              "nextScene": 17
+            }
+          ],
+          "backgroundImg": "/images/scene13.1.png"
+      },
+      {
+            
+          "id": 16,
+          "text": "Eure Bannsprüche versagen, dir bleibt nichts anderes übrig als dich dem Spiegel zu stellen.",
+          "options": [
+          {
+          "text": "Du musst dich dem Spiegel stellen",
+          "nextScene": 17
+          }
+          ],
+          "backgroundImg": "/images/seelenspiegel.png"
+      },        
+      {
+        
+        "id": 17,
+        "text": "Du blickst in den Seelenspiegel und siehst deine dunkelsten Ängste und Geheimnisse. Der Spiegel zeigt dir nicht nur deine Vergangenheit, sondern auch die potenzielle Zukunft, eine Version von dir, die von der Macht des Schattensteins korrumpiert wurde, und eine andere, in der du die Relikte nutzt, um die Welt zu retten. Levi beobachtet dich besorgt, während der Spiegel weiter Bilder zeigt. 'Du hast die Macht, das Schicksal zu ändern, aber jede Entscheidung hat ihren Preis.'",
+        "options": [
+          {
+            "text": "Vertraue deinem zukünftigen Selbst.",
+            "nextScene": 20
+          },
+          {
+            "text": "Versuche, einen Weg zu finden, ohne die Relikte die Welt zu verändern.",
+            "nextScene": 20
+          },
+          {
+            "text": "Verzweifle an deiner Zukunft und überlege, die Suche abzubrechen.",
+            "nextScene": 19
+          }
+        ],
+        "backgroundImg": "/images/seelenspiegel.png"
+      },
+      {
+        
+        "id": 18,
+        "text": "Du hast die Suche abgebrochen. Professor Korvin hat durch dich die Relikte gefunden und an sich genommen. Er wurde vom Schattenstein in die Dunkelheit gezogen. Die Welt wird in Dunkelheit versinken.",
+        "options": [],
+        "backgroundImg": "/images/scene14.1.png"
+        },
+      {
+        
+        "id": 19,
+        "text": "Das letzte Relikt, der Zeitweber, ist das mächtigste Artefakt von allen. Es gibt Gerüchte, dass er tief in den Ruinen eines alten Schlosses im Norden versteckt liegt. Doch Korvin, der dunkle Magier, beginnt dich zu jagen. Du musst schnell handeln, bevor er das Relikt in die Hände bekommt.",
+        "options": [
+          {
+            "text": "Begib dich direkt zu den Ruinen und stelle dich Korvin.",
+            "nextScene": 22
+          },  
+          {
+            "text": "Versuche, einen geheimen Weg in die Ruinen zu finden, um Korvin zu entkommen.",
+            "nextScene": 22
+          },
+          {
+            "text": "Suche nach Verbündeten, die dir im Kampf gegen Korvin helfen.",
+            "nextScene": 21
+          }
+        ],
+        "backgroundImg": "/images/scene6.png"
+      },
+      {
+        
+        "id": 20,
+        "text": "Du stellst fest das es keine Möglichkeit gibt die Ruinen unbemerkt zu erreichen. Du musst Verbündete finden um dich Korvin stellen zu können.",
+        "options": [
+          {
+            "text": "Suche nach Verbündeten, die dir im Kampf gegen Korvin helfen.",
+            "nextScene": 21
+          }
+        ],
+        "backgroundImg": "/images/verbündete.png"
+      },
+      {
+        
+        "id": 21,
+        "text": "Du entscheidest dich, Verbündete zu suchen. In den Hallen von Durmstrang gibt es andere Schüler, die sich gegen Korvins dunklen Einfluss wehren. Gemeinsam schmiedet ihr einen Plan, um Korvin in eine Falle zu locken.",
+        "options": [
+          {
+            "text": "Locke Korvin in eine Falle und besiege ihn mit vereinter Kraft.",
+            "nextScene": 22
+          },
+          {
+            "text": "Versuche, Korvin zu überlisten und den Zeitweber vor ihm zu stehlen.",
+            "nextScene": 22
+          },
+          {
+            "text": "Stelle dich Korvin direkt im Zweikampf.",
+            "nextScene": 23
+          }
+        ],
+        "backgroundImg": "/images/verbündete1.png"
+      },
+      {
+        
+        "id": 22,
+        "text": "Der Moment ist gekommen, du stehst Professor Korvin gegenüber. Der Kampf um den Zeitweber wird darüber entscheiden, wer die Kontrolle über das Schicksal der Welt hat. Korvin ist ein mächtiger Magier, aber du hast die Relikte, um dich zu verteidigen.",
+        "options": [
+          {
+            "text": "Nutze die Kraft der Relikte im Kampf gegen Professor Korvin.",
+            "nextScene": 23
+          },
+          {
+            "text": "Verwende den Seelenspiegel, um Professor Korvins wahre Absichten zu enthüllen.",
+            "nextScene": 24
+          },
+          {
+            "text": "Versuche, Professor Korvin mit Worten zu überzeugen, das Relikt aufzugeben.",
+            "nextScene": 25
+          }
+        ],
+        "backgroundImg": "/images/showdown.png"
+      },
+      {
+        
+        "id": 23,
+        "text": "Die Relikte geben dir große Macht, obwohl Professor Korvin ein starker Zauberer ist kann er dir nicht lange stand halten, er verschwindet mit einem Portschlüssel...",
+        "options": [
+          {
+            "text": "Du kannst die Ruinen nun betreten...",
+            "nextScene": 25
+          }
+        ],
+        "backgroundImg": "/images/scene17.1.png"
+      },
+      {
+          
+          "id": 24,
+          "text": "Du hältst Professor Korvin den Seelenspiegel vor, um sein wahres Inneres zu offenbaren. Er flüchtet mit einem Portschlüssel.",
+          "options": [
+            {
+              "text": "Du kannst die Ruinen nun betreten...",
+              "nextScene": 25
+            }
+          ],
+          "backgroundImg": "/images/scene17.1.png"
+      },  
+      {
+        
+        "id": 25,
+        "text": "Du hast den Zeitweber erlangt. Seine Macht über Zeit und Raum liegt nun in deinen Händen. Doch die Verantwortung wiegt schwer. Du könntest alles ungeschehen machen, die gesamte Geschichte der magischen Welt umschreiben.",
+        "options": [
+          {
+            "text": "Nutze den Zeitweber, um die Vergangenheit zu ändern und Korvin zu stoppen.",
+            "nextScene": 27
+          },
+          {
+            "text": "Bewahre den Zeitweber und sichere seine Macht für die Zukunft.",
+            "nextScene": 28
+          },
+          {
+            "text": "Zerstöre den Zeitweber, um sicherzustellen, dass niemand seine Macht missbraucht.",
+            "nextScene": 26
+          }
+        ],
+        "backgroundImg": "/images/zeitweber1.png"
+      },
+      {
+        
+        "id": 26,
+        "text": "Du versuchst den Zeitweber zu zerstören, aber etwas stimmt nicht... die Zeiger laufen rückwärts",
+        "options": [
+          {
+            "text": "...",
+            "nextScene": 1
+          }
+        ],
+        "backgroundImg": "/images/zeitweber_1.png"
+      },
+      {
+          
+          "id": 27,
+          "text": "Du versuchst die Vergangenheit zu ändern, um zu verhindern das Professor Korvin von den Relikten erfährt",
+          "options": [
+            {
+              "text": "die Zeiger laufen rückwärts, aber etwas stimmt nicht...",
+              "nextScene": 1
+            }
+          ],
+          "backgroundImg": "/images/zeitweber_1.png"
+      },
+      {
+        
+        "id": 28,
+        "text": "Die Relikte sind nun in deinem Besitz, und die Welt erwartet deine Entscheidung. Du könntest die Relikte nutzen, um ein neues Zeitalter zu schaffen, oder sie zerstören und den Kreislauf der Macht beenden. Doch mit großer Macht kommt immer ein schwerer Preis.",
+        "options": [
+          {
+            "text": "Zerstöre alle Relikte und beende ihre dunkle Herrschaft.",
+            "nextScene": 29
+          },
+          {
+            "text": "Nutze die Relikte, um ein neues Zeitalter des Friedens zu schaffen.",
+            "nextScene": 30
+          },
+          {
+            "text": "Bewahre die Relikte für dich selbst und strebe nach noch größerer Macht.",
+            "nextScene": 30
+          }
+        ],
+        "backgroundImg": "/images/zeitweber1.png"
+      },
+      {
+        
+        "id": 29,
+        "text": "Deine Idee die Relikte zu zerstören scheitert, du versuchst sie mit einem Bann zu belegen.",
+        "options": [
+          {
+            "text": "aber etwas stimmt nicht... die Zeiger laufen rückwärts",
+            "nextScene": 1
+          }
+        ],
+        "backgroundImg": "/images/zeitweber_1.png"
+      },
+      {
+        
+        "id": 30,
+        "text": "Egal welche Wahl du getroffen hast, eine dunkle Prophezeiung bleibt bestehen. Es gibt Hinweise, dass noch mächtigere Artefakte in der Welt existieren, Artefakte, die weit über die Relikte hinausgehen. Dein Abenteuer ist noch lange nicht zu Ende. 'Das Schicksal hat dich auserwählt, aber der Weg ist noch nicht vorüber. Dunkelheit und Licht stehen immer im Kampf und du bist das Zünglein an der Waage.'",
+        "options": [
+          {
+            "text": "Setze die Reise mit der neuen Macht fort.",
+            "nextScene": 31
+          }
+        ],
+        "backgroundImg": "/images/scene10.png"
+      },
+      {
+        "id": 31,
+        "text": "Fortsetzung folgt...",
+        "options": [],
+        "backgroundImg": "/images/ende.png"
+      }
+    ]
+  }
+  
