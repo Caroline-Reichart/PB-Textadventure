@@ -205,7 +205,7 @@
       {
         
         "id": 13,
-        "text": "Nach deinem Abenteuer in den Katakomben entdeckst du Hinweise auf das zweite Relikt, den Seelenspiegel, der tief im verbotenen Wald verborgen liegt. Dieser Spiegel soll die tiefsten Geheimnisse und Ängste seiner Besitzer offenbaren. Du und Levi machen euch auf den Weg durch den dunklen Wald, begleitet von unheilvollem Rauschen der Bäume und seltsamen Geräuschen, die euch folgen. Plötzlich stehst du vor einer alten, verwitterten Hütte. Im Inneren spürst du eine magische Präsenz. Der Seelenspiegel wartet...",
+        "text": "Nach deinem Abenteuer in den Katakomben entdeckst du Hinweise auf das zweite Relikt, den Seelenspiegel, der tief im verbotenen Wald verborgen liegt. Dieser Spiegel soll die tiefsten Geheimnisse und Ängste seiner Besitzer offenbaren. Du und Levi macht euch auf den Weg durch den dunklen Wald, begleitet von unheilvollem Rauschen der Bäume und seltsamen Geräuschen, die euch folgen. Plötzlich stehst du vor einer alten, verwitterten Hütte. Im Inneren spürst du eine magische Präsenz. Der Seelenspiegel wartet...",
         "options": [
           {
             "text": "Betritt die Hütte und stelle dich dem Spiegel.",
@@ -265,7 +265,7 @@
         "options": [
           {
             "text": "Vertraue deinem zukünftigen Selbst.",
-            "nextScene": 20
+            "nextScene": 19
           },
           {
             "text": "Versuche, einen Weg zu finden, ohne die Relikte die Welt zu verändern.",
@@ -273,7 +273,7 @@
           },
           {
             "text": "Verzweifle an deiner Zukunft und überlege, die Suche abzubrechen.",
-            "nextScene": 19
+            "nextScene": 18
           }
         ],
         "backgroundImg": "/images/seelenspiegel.png"
@@ -384,7 +384,7 @@
       {
         
         "id": 25,
-        "text": "Du hast den Zeitweber erlangt. Seine Macht über Zeit und Raum liegt nun in deinen Händen. Doch die Verantwortung wiegt schwer. Du könntest alles ungeschehen machen, die gesamte Geschichte der magischen Welt umschreiben.",
+        "text": "Du hast den Zeitweber gefunden. Seine Macht über Zeit und Raum liegt nun in deinen Händen. Doch die Verantwortung wiegt schwer. Du könntest alles ungeschehen machen, die gesamte Geschichte der magischen Welt umschreiben.",
         "options": [
           {
             "text": "Nutze den Zeitweber, um die Vergangenheit zu ändern und Korvin zu stoppen.",
