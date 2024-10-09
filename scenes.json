@@ -2,7 +2,7 @@
     "scenes": [
       {
         "id": 0, 
-        "text": "In den Bergen um Durmstrang, verborgen in Dunkelheit und Nebel, ranken sich Gerüchte über die mächtigsten Relikte, die je existiert haben: der Schattenstein, der Seelenspiegel und der Zeitweber. Diese Artefakte könnten den Verlauf der magischen Welt verändern. Eine Prophezeiung warnt jedoch, dass ihre Macht nur Unheil bringt, wenn sie in die falschen Hände gelangen.<br><br> Du bist Lukas Roskow, ein Schüler an der magischen Schule von Durmstrang, der eines Nachts einen beunruhigenden Traum hat. Darin erscheinen dir die Relikte, ein Labyrinth und eine uralte Stimme, die dich warnt: <i>'Die Zeit läuft aus, die Dunkelheit kommt...'</i>",
+        "text": "In den Bergen um Durmstrang, verborgen in Dunkelheit und Nebel, ranken sich Gerüchte über die mächtigsten Relikte, die je existiert haben: der Schattenstein, der Seelenspiegel und der Zeitweber. Diese Artefakte könnten den Verlauf der magischen Welt verändern. Eine Prophezeiung warnt jedoch, dass ihre Macht nur Unheil bringt, wenn sie in die falschen Hände gelangen.<br><br> Du bist Lukas Roskow, ein Schüler an der magischen Schule von Durmstrang, der eines Nachts einen beunruhigenden Traum hat. Darin erscheinen dir die Relikte, ein Labyrinth und eine uralte Stimme, die dich warnt: <i>'Die Zeit läuft ab, die Dunkelheit kommt...'</i>",
         "options": [
           {
             "text": "Es beginnt...",
@@ -82,7 +82,7 @@
       {
         
         "id": 5,
-        "text": "Die Katakomben unter Durmstrang sind ein uraltes Labyrinth, das seit Jahrhunderten von niemandem betreten wurde. Die Luft ist kalt und modrig, und magische Schutzbarrieren flimmern in der Dunkelheit. Du und Levi steigen die steinernen Stufen hinunter und erreichen eine massive, mit Runen beschriftete Tür.",
+        "text": "Die Katakomben unter Durmstrang sind ein uraltes Labyrinth, das seit Jahrhunderten von niemandem betreten wurde. Die Luft ist kalt und modrig, und magische Schutzbarrieren flimmern in der Dunkelheit. Zusammen steigt ihr die steinernen Stufen hinunter und erreicht eine massive, mit Runen beschriftete Tür.",
         "options": [
           {
             "text": "Verwende den Schutzzauber, den du gelernt hast, um die Runen zu brechen.",
@@ -205,7 +205,7 @@
       {
         
         "id": 13,
-        "text": "Nach deinem Abenteuer in den Katakomben entdeckst du Hinweise auf das zweite Relikt, den Seelenspiegel, der tief im verbotenen Wald verborgen liegt. Dieser Spiegel soll die tiefsten Geheimnisse und Ängste seiner Besitzer offenbaren. Du und Levi macht euch auf den Weg durch den dunklen Wald, begleitet von unheilvollem Rauschen der Bäume und seltsamen Geräuschen, die euch folgen. Plötzlich stehst du vor einer alten, verwitterten Hütte. Im Inneren spürst du eine magische Präsenz. Der Seelenspiegel wartet...",
+        "text": "Nach deinem Abenteuer in den Katakomben entdeckst du Hinweise auf das zweite Relikt, den Seelenspiegel, der tief im verbotenen Wald verborgen liegt. Dieser Spiegel soll die tiefsten Geheimnisse und Ängste seiner Besitzer offenbaren. Zusammen macht ihr euch auf den Weg durch den dunklen Wald, begleitet von unheilvollem Rauschen der Bäume und seltsamen Geräuschen, die euch folgen. Plötzlich stehst ihr vor einer alten, verwitterten Hütte. Im Inneren spürst du eine magische Präsenz. Der Seelenspiegel wartet...",
         "options": [
           {
             "text": "Betritt die Hütte und stelle dich dem Spiegel.",
@@ -419,7 +419,7 @@
           "text": "Du versuchst die Vergangenheit zu ändern, um zu verhindern das Professor Korvin von den Relikten erfährt",
           "options": [
             {
-              "text": "die Zeiger laufen rückwärts, aber etwas stimmt nicht...",
+              "text": "Die Zeiger laufen rückwärts, aber etwas stimmt nicht...",
               "nextScene": 1
             }
           ],
@@ -451,7 +451,7 @@
         "text": "Deine Idee die Relikte zu zerstören scheitert, du versuchst sie mit einem Bann zu belegen.",
         "options": [
           {
-            "text": "aber etwas stimmt nicht... die Zeiger laufen rückwärts",
+            "text": "Aber etwas stimmt nicht... die Zeiger laufen rückwärts",
             "nextScene": 1
           }
         ],
