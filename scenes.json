@@ -193,7 +193,7 @@
             "nextScene": 32
           }
         ],
-        "backgroundImg": "/images/scene3.1.png"
+        "backgroundImg": "./images/scene3.1.png"
       },
       {
         
