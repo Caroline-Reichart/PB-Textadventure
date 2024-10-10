@@ -9,7 +9,7 @@
             "nextScene": 1
           }
         ],
-        "backgroundImg": "/images/intro-background.png"
+        "backgroundImg": "./images/intro-background.png"
       },
       {
         "id": 1,
@@ -443,7 +443,7 @@
             "nextScene": 30
           }
         ],
-        "backgroundImg": "/images/zeitweber1.png"
+        "backgroundImg": "./images/zeitweber1.png"
       },
       {
         
